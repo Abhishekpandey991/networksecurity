@@ -24,8 +24,8 @@ from sklearn.ensemble import (
 
 import mlflow
 
-# import dagshub
-# dagshub.init(repo_owner='Abhishekpandey991', repo_name='networksecurity', mlflow=True)
+import dagshub
+dagshub.init(repo_owner='Abhishekpandey991', repo_name='networksecurity', mlflow=True)
 
 
 class ModelTrainer:
